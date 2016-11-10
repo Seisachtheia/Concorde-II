@@ -65,4 +65,13 @@ $color-2: white;
 .container {
     margin: 0 199px 0 199px;
     padding: 0 15px 0 15px;
+    max-width: 710px;
+}
+
+.preamble {
+    font-style: italic;
+    text-align: center;
+    margin: 0 auto 16px auto;
+    font-size: 19px;
+    font-family: "calluna";
 }
