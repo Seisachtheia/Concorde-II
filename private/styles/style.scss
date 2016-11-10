@@ -38,6 +38,26 @@ header {
     background-position: center;
 }
 
+.fixed-nav {
+    position: fixed;
+    text-decoration: none;
+    z-index: 1;
+    float:left;
+    background-size:cover;
+    height:20px;
+    width:50px;
+
+    img {
+        margin: 11px;
+        padding: 8px 10px;
+        opacity: .9;
+        display: inline-block;
+        background-color: #000;
+    }
+
+
+}
+
 .concorde {
     height:51px;
     color: #333;
@@ -89,6 +109,7 @@ header {
 .list {
     margin: 1em 0 1em 0;
     padding: 40px 0 0 40px;
+    width:680px;
 
     li {
         text-align:justify;
@@ -97,5 +118,6 @@ header {
         font-family: $text-1;
         font-weight: 400;
         line-height:27px;
+        
     }
 }
