@@ -11,6 +11,9 @@ $tablet-width: 600px;
 $color-1: #3498db;
 $color-2: white;
 
+$text-1: "Raleway";
+$text-2: "Quintessential";
+
 // Core Import
 @import "typography";
 
@@ -62,18 +65,25 @@ $color-2: white;
     text-align:center;
     }
 
-.container {
-    margin: 0 199px 0 199px;
+.content {
+    margin: 0 auto 0 auto;
     padding: 0 15px 0 15px;
     max-width: 710px;
     font-size: 19px;
-    font-family: "Raleway";
 }
+
+.container {
+   // margin: 0 199px 0 199px;
+    //padding: 0 15px 0 15px;
+    //max-width: 710px;
+    //font-size: 19px;
+    }
 
 .preamble {
     font-style: italic;
     text-align: center;
     margin: 0 auto 16px auto;
+    font-family:"Quintessential";
     
 }
 
@@ -85,6 +95,8 @@ $color-2: white;
         text-align:justify;
         margin-bottom:15px;
         font-size: 19px;
-        font-family: "Raleway";
+        font-family: $text-1;
+        font-weight: 400;
+        line-height:27px;
     }
 }
