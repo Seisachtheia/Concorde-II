@@ -24,6 +24,10 @@ $text-2: "Quintessential";
 
 // Your SCSS goes below here
 
+html {
+    overflow: auto;
+}
+
 header {
     margin-bottom:20px;
     padding-bottom:40px;
